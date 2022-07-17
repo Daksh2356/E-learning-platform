@@ -10,8 +10,8 @@ class Wrapper extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       color: Colors.black,
-      // child: Authenticate(),
-      child: const Authenticate(),
+      // child: const Authenticate(),
+      child: const Home(),
     );
   }
 }
